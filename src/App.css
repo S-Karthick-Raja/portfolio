@@ -50,7 +50,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-left: 20px;
 }
 section .title {
   position: relative;
@@ -126,7 +127,7 @@ section .title::after {
 .navbar .menu li a {
   display: block;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
@@ -186,7 +187,7 @@ section .title::after {
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
-  width: 100%;
+  width: 80%;
   display: flex;
 }
 .home .max-width .row {
@@ -197,7 +198,7 @@ section .title::after {
   color: #a7a7a7;
 }
 .home .home-content .text-2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   margin-left: -3px;
   font-family: 'Poppins', sans-serif;
@@ -231,9 +232,6 @@ section .title::after {
 /* about section styling */
 .about .title::after {
   content: "who i am";
-}
-.about .about-content .left {
-  width: 45%;
 }
 .about .about-content .left img {
   height: 520px;
@@ -327,7 +325,7 @@ section .title::after {
   content: "what i know";
 }
 .skills .skills-content .column {
-  width: calc(50% - 30px);
+  width: calc(50% - 145px);
 }
 .skills .skills-content .left .text {
   font-size: 20px;
@@ -473,7 +471,7 @@ section .title::after {
   content: "get in touch";
 }
 .contact .contact-content .column {
-  width: calc(50% - 30px);
+  width: calc(46% - 100px);
 }
 .contact .contact-content .text {
   font-size: 20px;
