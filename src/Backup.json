@@ -1,0 +1,7 @@
+[{
+    "recipe" :"Recipe Application",
+    "avatar" : "https://res.cloudinary.com/karthy/image/upload/v1644868008/avatar/Recipe_s131ri.jpg",
+    "about":"This is a recipe application where individuals Can create thier own recipe. It can be added to our side.we can update it and if not we can also delete the recipes.It is build using React and Mockapi",
+    "sourceUrl":"https://github.com/S-Karthick-Raja/Day-31-Task.git",
+    "deploy" : "https://day-31-task.netlify.app/"
+}]

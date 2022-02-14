@@ -201,12 +201,12 @@ section .title::after {
   font-size: 50px;
   font-weight: 600;
   margin-left: -3px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .home .home-content .text-3 span {
   color: crimson;
@@ -291,7 +291,7 @@ section .title::after {
   background: #21675d7a;
   text-align: center;
   border-radius: 6px;
-  padding: 50px 25px;
+  padding: 30px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-bottom: 50px;
@@ -703,20 +703,34 @@ footer span a:hover {
   }
 }
 
-.project-btn,.live-btn {
+.project-btn,
+.live-btn {
   margin-top: 10px;
   font-size: 34px;
 }
-.icon{
+.icon {
   color: white;
   margin-right: 10px;
 }
 
-.socialicon{
+.socialicon {
   margin-right: 10px;
 }
 
-.skills-list{
+.skills-list {
   font-size: 19px;
 }
 
+.recipe-name{
+  color: rgb(252, 193, 2);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Project-image{
+ width: 350px;
+ object-fit: cover;
+}
+.avatar{
+  overflow: hidden;
+}
