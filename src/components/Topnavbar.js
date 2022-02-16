@@ -1,45 +1,57 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react'
+import React from "react";
+import * as ReactBootStrap from "react-bootstrap";
+import Avatar from "@mui/material/Avatar";
+import './Topnavbar.css';
 
 function Topnavbar() {
-    const [navbar, setNavbar] = useState(false);
-    const [color, setColor] = useState(false);
-
-    const changeBackground = () => {
-        if (window.scrollY >= 30) {
-            setNavbar(true);
-        } else {
-            setNavbar(false);
-        }
-    };
-
-    const changeColor = () => {
-        if (window.scrollY >= 30) {
-            setColor(true);
-        } else {
-            setColor(false);
-        }
-    };
-
-    window.addEventListener('scroll', changeBackground);
-    window.addEventListener('scroll', changeColor);
     return (
-        <nav className={navbar ? 'navbar active' : 'navbar'}>
-            <div className="max-width">
-                <div className="logo"><a href="/">Portfo<span className={color ? 'span active' : 'span'}>lio.</span></a></div>
-                <ul className="menu">
-                    <li><a href="#home" className="menu-btn">Home</a></li>
-                    <li><a href="#about" className="menu-btn">About</a></li>
-                    <li><a href="#skills" className="menu-btn">Skills</a></li>
-                    <li><a href="#Projects" className="menu-btn">Projects</a></li>
-                    <li><a href="#contact" className="menu-btn">Contact</a></li>
-                </ul>
-                <div className="menu-btn">
-                    <i className="fas fa-bars"></i>
-                </div>
-            </div>
-        </nav>
-    )
+        <ReactBootStrap.Navbar
+            collapseOnSelect
+            expand="lg"
+            sticky="top"
+            varient="light"
+            style={{ backgroundColor: "crimson" }}
+        >
+            <ReactBootStrap.Container>
+                <img
+                    alt=""
+                    src="https://res.cloudinary.com/karthy/image/upload/v1645019868/avatar/logo512_vkbpbv.png"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                />
+                <ReactBootStrap.Navbar.Brand href="/" >
+                    <span className="name-left">Portfolio</span>
+                </ReactBootStrap.Navbar.Brand>
+                <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
+                    <ReactBootStrap.Nav className="link-home">
+                        <ReactBootStrap.Nav.Link href="#home"><span className="link">Home</span></ReactBootStrap.Nav.Link>
+                        <ReactBootStrap.Nav.Link href="#about">
+                            <span className="link">About</span>
+                        </ReactBootStrap.Nav.Link>
+                        <ReactBootStrap.Nav.Link href="#skills">
+                            <span className="link">Skills</span>
+                        </ReactBootStrap.Nav.Link>
+                        <ReactBootStrap.Nav.Link href="#Projects">
+                            <span className="link">Projects</span>
+                        </ReactBootStrap.Nav.Link>
+                        <ReactBootStrap.Nav.Link href="#contact">
+                            <span className="link">Contacts</span>
+                        </ReactBootStrap.Nav.Link>
+                    </ReactBootStrap.Nav>
+                    <ReactBootStrap.Nav.Link href="#about">
+                        <Avatar
+                            alt="Karthick Raja S"
+                            src="https://res.cloudinary.com/karthy/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1645023339/avatar/Profile_qilxwz.jpg"
+                        />
+                    </ReactBootStrap.Nav.Link>
+                </ReactBootStrap.Navbar.Collapse>
+            </ReactBootStrap.Container>
+        </ReactBootStrap.Navbar>
+    );
 }
 
-export default Topnavbar
+export default Topnavbar;
+

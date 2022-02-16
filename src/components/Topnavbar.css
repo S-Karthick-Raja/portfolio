@@ -1,0 +1,21 @@
+.name-left {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 10px;
+  color: white;
+}
+.link,
+.link-home {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+  }
+}

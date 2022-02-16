@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React from 'react';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import './Skillsection.css';
 
 function Skillsection() {
     return (
@@ -39,6 +40,7 @@ function Skillsection() {
                         <a href="#home">Move Top <KeyboardArrowUpIcon /></a>
                     </div>
                     <div className="column right">
+                        <div className="status">Status Bar:</div>
                         <div className="bars">
                             <div className="info">
                                 <span>HTML</span>
