@@ -60,7 +60,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 section .title::before {
   content: "";
@@ -272,8 +272,7 @@ section .title::after {
 }
 
 /* services section styling */
-.services,
-.teams {
+.services {
   color: #fff;
   background: #111;
 }
@@ -401,69 +400,6 @@ section .title::after {
 }
 .skills-content .right .expressjs::before {
   width: 84%;
-}
-
-/* teams section styling */
-.teams .title::after {
-  content: "who with me";
-}
-.teams .carousel .card {
-  background: #222;
-  border-radius: 6px;
-  padding: 25px 35px;
-  text-align: center;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover {
-  background: crimson;
-}
-.teams .carousel .card .box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover .box {
-  transform: scale(1.05);
-}
-.teams .carousel .card .text {
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
-}
-.teams .carousel .card img {
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid crimson;
-  transition: all 0.3s ease;
-}
-.teams .carousel .card:hover img {
-  border-color: #fff;
-}
-.owl-dots {
-  text-align: center;
-  margin-top: 20px;
-}
-.owl-dot {
-  height: 13px;
-  width: 13px;
-  margin: 0 5px;
-  outline: none !important;
-  border-radius: 50%;
-  border: 2px solid crimson !important;
-  transition: all 0.3s ease;
-}
-.owl-dot.active {
-  width: 35px;
-  border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover {
-  background: crimson !important;
 }
 
 /* contact section styling */
@@ -721,16 +657,34 @@ footer span a:hover {
   font-size: 19px;
 }
 
-.recipe-name{
+.recipe-name {
   color: rgb(252, 193, 2);
   font-size: 24px;
   font-weight: bold;
 }
 
-.Project-image{
- width: 350px;
- object-fit: cover;
+.Project-image {
+  width: 350px;
+  object-fit: cover;
 }
-.avatar{
+.avatar {
   overflow: hidden;
+}
+.project-about{
+  font-family: 'Poppins', sans-serif;
+  height: 110px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.project-name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 187, 0);
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }

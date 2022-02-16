@@ -1,7 +1,44 @@
-[{
-    "recipe" :"Recipe Application",
-    "avatar" : "https://res.cloudinary.com/karthy/image/upload/v1644868008/avatar/Recipe_s131ri.jpg",
-    "about":"This is a recipe application where individuals Can create thier own recipe. It can be added to our side.we can update it and if not we can also delete the recipes.It is build using React and Mockapi",
-    "sourceUrl":"https://github.com/S-Karthick-Raja/Day-31-Task.git",
-    "deploy" : "https://day-31-task.netlify.app/"
-}]
+[
+  {
+    "appName": "Recipe Application",
+    "avatar": "https://res.cloudinary.com/karthy/image/upload/v1644868008/avatar/Recipe_s131ri.jpg",
+    "about": "This is a recipe application where individuals Can create thier own recipe. It can be added to our side.we can update it and if not we can also delete the recipes.It is build using React and Mockapi",
+    "sourceUrl": "https://github.com/S-Karthick-Raja/Day-31-Task.git",
+    "deploy": "https://day-31-task.netlify.app/"
+  },
+  {
+    "appName": "Book-Keeping Application",
+    "avatar": "https://res.cloudinary.com/karthy/image/upload/v1644869025/avatar/Book-Keeping_imirfp.png",
+    "about": "This is book-keeping application which is used to create new books and maintain individualy. All users can access the book library.  ",
+    "sourceUrl": "https://github.com/S-Karthick-Raja/React-Frontend-Bookkeeping-App.git",
+    "deploy": "https://bookkeeping-application.netlify.app/"
+  },
+  {
+    "appName": "Movie-Review Application",
+    "avatar": "https://res.cloudinary.com/karthy/image/upload/v1644876870/avatar/Movies_aylbws.png",
+    "about": "This application is use to see the movie revies and the rating of the movie we can do create,update,delete the movies. It done with react and nodejs , mongoDB for database",
+    "sourceUrl": "https://github.com/S-Karthick-Raja/Day-33-Task.git",
+    "deploy": "https://karthick-movie-reviews.netlify.app/"
+  },
+  {
+    "appName": "",
+    "avatar": "",
+    "about": "",
+    "sourceUrl": "",
+    "deploy": ""
+  },
+  {
+    "appName": "",
+    "avatar": "",
+    "about": "",
+    "sourceUrl": "",
+    "deploy": ""
+  },
+  {
+    "appName": "",
+    "avatar": "",
+    "about": "",
+    "sourceUrl": "",
+    "deploy": ""
+  }
+]
