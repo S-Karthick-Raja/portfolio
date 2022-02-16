@@ -1,15 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import RestaurantMenuIcon from "@mui/icons-material/RestaurantMenu";
 import LanguageIcon from "@mui/icons-material/Language";
 import { API_URL } from "./Global-Constant/globalConstant";
 import { useState } from "react";
-
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 
 function Project() {

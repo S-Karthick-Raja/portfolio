@@ -324,12 +324,14 @@ section .title::after {
   content: "what i know";
 }
 .skills .skills-content .column {
-  width: calc(50% - 145px);
+  width: calc(56% - 145px);
 }
 .skills .skills-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: bold;
   margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+
 }
 .skills .skills-content .left p {
   text-align: justify;
@@ -655,6 +657,8 @@ footer span a:hover {
 
 .skills-list {
   font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .recipe-name {
@@ -687,4 +691,11 @@ footer span a:hover {
   justify-content: space-around;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.package{
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
 }

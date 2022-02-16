@@ -12,10 +12,29 @@ function Skillsection() {
                         <div className="text">MY CREATIVE SKILLS & kNOWLEDGE:</div>
                         <ul className='skills-list'>
                             <li>I got goodknowledge in react,mongodb,nodejs,express.</li>
-                            <li>I will adapt to new technologies.</li>
-                            <li>I use both axios and react fetch system. </li>
-                            <li>I use both axios and react fetch system. </li>
+                            <li>Adapting to new technologies is easy and ill learn quickly.</li>
+                            <li>For fetching axios and react fetch ill use. </li>
+                            <li>Mostly for front end UI ill Bootstrap,Material-UI library. </li>
+                            <li>For  back end ill use mongoose schema. </li>
+                            <li>Back end i use JWT and oAuth for Authentication.</li>
+                            <li>API's are also used to fetch data from open source like googleapi.</li>
 
+                        </ul>
+                        <div className="package">Known Packages:</div>
+                        <ul className='skills-list'>
+                            <li>npm packages is used for React and NodeJS</li>
+                        </ul>
+                        <div className="package">Known Library:</div>
+                        <ul className='skills-list'>
+                            <li>React-Bootstrap</li>
+                            <li>Material-UI</li>
+                            <li>Materialize</li>
+                            <li>Font-Awesome</li>
+                        </ul>
+                        <div className="package">Known Data Base:</div>
+                        <ul className='skills-list'>
+                            <li>MongoDB</li>
+                            <li>SQL</li>
                         </ul>
                         <a href="#home">Move Top <KeyboardArrowUpIcon /></a>
                     </div>
