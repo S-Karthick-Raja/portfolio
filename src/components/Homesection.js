@@ -14,7 +14,7 @@ function Homesection() {
                         <TypewriterComponent
                             className="typing"
                             options={{
-                                strings: ["MERN STACK DEVELOPER","Front-End DEVELOPER"],
+                                strings: ["MERN STACK DEVELOPER","Front-End DEVELOPER", "Back-End DEVELOPER"],
                                 autoStart: true,
                                 loop: true,
                             }}
