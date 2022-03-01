@@ -8,36 +8,23 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { Button, CardActionArea, CardActions } from "@mui/material";
-import * as ReactBootStrap from 'react-bootstrap';
 
-function Project() {
+function Projectfetch() {
   const [project, setProject] = useState([]);
-  // const [loading, setLoading] = useState(false);
 
   const getProjects = () => {
     fetch(`${API_URL}/Portfolio`)
       .then((data) => data.json())
       .then((pjt) => setProject(pjt));
   }
-  // setLoading(true);
   useEffect(getProjects, []);
 
-  return (
-    <section className="services" id="Projects">
-      <div className="max-width">
-        <h2 className="title">My Projects</h2>
+  return (  
         <div className="serv-content">
-          {<ReactBootStrap.Spinner animation="border" variant="success" />}
           {project.map(({ avatar, appName, about, sourceUrl, deploy }) => (
             <>
               <Card sx={{ maxWidth: 360 }}>
-                <CardActionArea>
-                  <CardMedia
-                    component="img"
-                    height="220"
-                    image={avatar}
-                    alt={appName}
-                  />
+                <CardActionArea>             
                   <CardContent>
                     <h3 className="project-name">
                       {appName}
@@ -75,9 +62,7 @@ function Project() {
             </>
           ))}
         </div>
-      </div>
-    </section>
   );
 }
 
-export default Project;
+export default Projectfetch;

@@ -6,8 +6,9 @@ import Aboutsection from './components/Aboutsection';
 import Skillsection from './components/Skillsection';
 import Contactsection from './components/Contactsection';
 import Footer from './components/Footer';
-import Project from './components/Project';
+// import Project from './components/Project';
 import Topnavbar from './components/Topnavbar';
+import ProjectDetail from './components/ProjectDetail';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
         <Homesection />
         <Aboutsection />
         <Skillsection />
-        <Project />
+        {/* <Project /> */}
+        <ProjectDetail />
         <Contactsection />
         <Footer />
       </BrowserRouter>
