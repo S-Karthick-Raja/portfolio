@@ -1,5 +1,6 @@
 .avatar{
     object-fit: contain;
-    height: 150px;
+    height: 170px;
+    width: 330px;
     margin-bottom: 20px;
 }
