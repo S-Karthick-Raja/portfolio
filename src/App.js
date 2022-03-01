@@ -6,7 +6,6 @@ import Aboutsection from './components/Aboutsection';
 import Skillsection from './components/Skillsection';
 import Contactsection from './components/Contactsection';
 import Footer from './components/Footer';
-// import Project from './components/Project';
 import Topnavbar from './components/Topnavbar';
 import ProjectDetail from './components/ProjectDetail';
 
@@ -19,7 +18,6 @@ function App() {
         <Homesection />
         <Aboutsection />
         <Skillsection />
-        {/* <Project /> */}
         <ProjectDetail />
         <Contactsection />
         <Footer />
