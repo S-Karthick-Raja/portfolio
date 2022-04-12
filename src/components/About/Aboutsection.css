@@ -174,3 +174,12 @@ section .titlespan {
     padding: 6px 20px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .about .about-content .right .text {
+    font-size: 15px;
+  }
+  .about .about-content .right p {
+    font-size: 13px;
+  }
+}
