@@ -176,10 +176,27 @@ section .titlespan {
 }
 
 @media only screen and (max-width: 320px) {
+  .about .about-content .left img {
+    height: 180px;
+    width: 180px;
+  }
   .about .about-content .right .text {
     font-size: 15px;
   }
   .about .about-content .right p {
     font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 293px) {
+  .about .about-content .left img {
+    height: 170px;
+    width: 170px;
+  }
+  .about .about-content .right .text {
+    font-size: 14px;
+  }
+  .about .about-content .right p {
+    font-size: 12px;
   }
 }

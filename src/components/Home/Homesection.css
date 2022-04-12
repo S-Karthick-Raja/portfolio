@@ -138,3 +138,20 @@
     margin-top: 10px;
   }
 }
+
+@media only screen and (max-width: 293px){
+  .home .home-content .text-1 {
+    font-size: 8px;
+  }
+  .home .home-content .text-2 {
+    font-size: 18px;
+  }
+  .home .home-content .text-3 {
+    font-size: 13px;
+  }
+  .home .home-content a {
+    font-size: 10px;
+    padding: 4px 14px;
+    margin-top: 10px;
+  }
+}
