@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LanguageIcon from "@mui/icons-material/Language";
-import { API_URL } from "./Global-Constant/globalConstant";
+import { API_URL } from "../Global-Constant/globalConstant";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { Button, CardActionArea, CardActions } from "@mui/material";

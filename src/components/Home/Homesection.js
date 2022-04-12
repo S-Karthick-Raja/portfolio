@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import TypewriterComponent from "typewriter-effect";
-import './Homesection.css'
+import "./Homesection.css";
 
 function Homesection() {
   return (
@@ -24,7 +23,7 @@ function Homesection() {
               }}
             />
           </div>
-          <a href="#contact" >Hire me</a>
+          <a href="#contact">Hire me</a>
         </div>
       </div>
     </section>
