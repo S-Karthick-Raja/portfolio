@@ -97,7 +97,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 506px) {
   .home {
     height: 50vh;
     min-height: 200px;
