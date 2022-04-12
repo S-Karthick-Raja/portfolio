@@ -16,10 +16,10 @@ function App() {
       <BrowserRouter>
         <Topnavbar />
         <Homesection />
-        <Aboutsection />
+        {/* <Aboutsection />
         <Skillsection />
         <ProjectDetail />
-        <Contactsection />
+        <Contactsection /> */}
         <Footer />
       </BrowserRouter>
     </div>
