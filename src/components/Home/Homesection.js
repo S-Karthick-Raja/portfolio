@@ -24,7 +24,7 @@ function Homesection() {
               }}
             />
           </div>
-          <a href="#contact">Hire me</a>
+          <a href="#contact" >Hire me</a>
         </div>
       </div>
     </section>

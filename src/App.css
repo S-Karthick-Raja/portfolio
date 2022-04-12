@@ -29,11 +29,6 @@ html {
 section {
   padding: 75px 0;
 }
-.max-width {
-  max-width: 1300px;
-  padding: 0px;
-  margin: auto;
-}
 .about,
 .services,
 .skills,
@@ -210,9 +205,8 @@ section .title::after {
   .services .serv-content .card {
     width: 100%;
   }
-}
-
-@media (max-width: 500px) {
+} 
+ @media (max-width: 500px) {
   .home .home-content .text-2 {
     font-size: 50px;
   }
@@ -247,7 +241,7 @@ section .title::after {
 
 
 
-.project-btn,
+/* .project-btn,
 .live-btn {
   margin-top: 10px;
   font-size: 34px;
@@ -319,4 +313,4 @@ section .title::after {
 .outernav {
   display: flex;
   align-items: center;
-}
+} */
