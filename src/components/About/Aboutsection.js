@@ -52,6 +52,7 @@ function Aboutsection() {
               href="https://drive.google.com/file/d/13VLuqW8qu73_jWlgNChRN-gz67MTU-NE/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
+              style={{ textDecoration: "none" }}
             >
               Download CV
             </a>

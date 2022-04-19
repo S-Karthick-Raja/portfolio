@@ -5,10 +5,13 @@ footer {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
+footer span {
+  color: lightblue;
+}
 footer span a {
   color: crimson;
   text-decoration: none;
 }
 footer span a:hover {
-  text-decoration: underline;
+  color: lightgreen;
 }
